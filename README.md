@@ -5,7 +5,6 @@
     - Tags
     - Atributos
 
-<<<<<<< HEAD
 ## Clase 2
 
 ### Introducción CSS
@@ -68,14 +67,3 @@
 - [Spread Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [Colecciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Keyed_collections)
 =======
-Clase 03
-HTML y CSS
-- Formularios
-- Tipografias
-- Pseudoclases
-
-Clase 04
-CSS - Grid
-- Diseño Responsive
-- Media Query
->>>>>>> 353440e6cdc9bcd95994586d3b0df806ba6386c8
