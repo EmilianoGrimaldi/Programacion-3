@@ -1,0 +1,337 @@
+html
+{
+    background-color: #5D586F;
+}
+
+body
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.section, .portada
+{
+    border-radius: 10px;
+}
+
+.section
+{
+    display: flex;
+    background-color: #2B2738;
+    width: 70%;
+    height: 550px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorPortada
+{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada
+{
+    display: flex;
+    background-color: black;
+    width: 95%;
+    height: 95%;
+    background-image: url(https://wallpapers.com/images/high/ios-14-desert-at-night-2zjysk4lnhvbtchc.webp);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header
+{   
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1
+{
+    color: #FFFEF8;
+    margin-left: 15px;
+}
+
+.header button
+{
+    width: 130px;
+    height: 27px;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: #5d539a;
+    border-style: none;
+    color: #FFFEF8;
+}
+
+.header button:hover
+{
+    width: 140px;
+    height: 30px;;
+}
+
+.descripcion
+{
+    margin-top: 70%;
+    color: #D9D8DA;
+    font-size: x-large;
+    margin-bottom: -15px;
+    font-weight: bold;
+}
+
+.linea
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.linea div
+{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.sectionRegistro
+{
+    width: 443.219px;
+    height: 512.062px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.limite
+{
+    width: 70%;
+    height: 100%;
+}
+
+.titulo
+{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.subtitulo
+{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1, h6
+{
+    margin: 0px;
+}
+
+.titulo h1
+{
+    color: #FEFEFC;
+}
+
+.titulo h6
+{
+    color: #64626D;
+}
+
+.titulo a
+{
+    font-size: medium;
+    color: #675D88;
+}
+
+.contenedorRegistro
+{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+}
+
+.formRegistro
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.filaUno
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formRegistro input
+{
+    width: 45%;
+    height: 25px;
+}
+
+.filaDos
+{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.filaDos input
+{
+    width: 100%;
+}
+
+.filaTres
+{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.filaTres input
+{
+    width: 100%;
+}
+
+.filaCuatro
+{
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.filaCuatro input
+{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.filaCuatro p
+{
+    font-size: small;
+}
+
+.submit
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.submit input
+{
+    width: 100%;
+    height: 30px;
+    background-color: #6E54B5;
+    color: #E4DEF3;   
+}
+
+.decoradoRegistro
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #4C4857;
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.decoradoRegistro hr
+{
+    width: 40%;
+    border: 1px solid;
+}
+
+.pDecorado
+{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otrosRegistros
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.otrosRegistros button
+{
+    display: flex;
+    width: 140px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;   
+    background-color: #2B2738;
+    color: white;
+}
+
+.otrosRegistros i 
+{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contenedorRegistro button, input
+{
+    border-radius: 4px;
+    border-style: none;
+}
+
+.otrosRegistros button
+{
+    border-radius: 6px;
+    border-style: 1px solid #393544;
+}
+
+.otrosRegistros button:hover
+{
+    border-color: #766A9C;
+}
+
+.input:focus
+{
+    outline-color: #766A9C;
+    border-color: #766A9C;
+}

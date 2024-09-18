@@ -1,0 +1,177 @@
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #a4243b;   
+}
+
+main
+{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr;
+}
+
+header
+{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: #273E47;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#img-logo
+{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.titulo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.barraBusqueda
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.barraBusqueda button
+{   
+    display: flex;
+    width: 100px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #bd632f;  
+}
+
+.barraBusqueda button:hover
+{
+    width: 120px;
+    height: 40px;
+}
+
+.barraBusqueda input
+{
+    height: 20px;
+    width: 150px;
+}
+
+.barraBusqueda input:focus
+{
+    outline-color: #bd632f;
+    width: 200px;
+}
+
+input, button
+{
+    border-radius: 10px;
+}
+
+input, button,i
+{
+    margin: 5px;
+}
+
+nav
+{
+    background-color: #D8973C;
+    grid-row: 2;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav button
+{
+    background-color: transparent;
+    width: 140px;
+    height: 30px;
+}
+nav button:hover
+{
+    border: 3px solid #273E47;
+    width: 160px;
+    height: 40px;
+}
+#lateral
+{
+    background-color: #273E47;
+    grid-row: 2/4;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lateral ul
+{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 20%; 
+}
+
+#negrita
+{
+    font-weight: bold;   
+}
+
+#lateral ul:hover
+{
+    text-decoration: underline;
+}
+
+#lateral ul li
+{
+    margin: 10px 0px;
+}
+#lateral ul li img
+{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#principal article
+{
+    background-color: #D8C99B;
+    grid-row: 3;
+    grid-column: 2;
+    border: 2px dashed black;
+    margin: 15px;
+}
+
+#anuncio
+{
+    background-color: black;
+    grid-row: 3;
+    grid-column: 3;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrcm_S5zxSjrZ02xc9Vfdu4kXivX4wGEXFA&s");
+    background-repeat: round;
+}
