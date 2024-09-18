@@ -66,4 +66,3 @@
 - [Arrow Functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Spread Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [Colecciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Keyed_collections)
-=======
