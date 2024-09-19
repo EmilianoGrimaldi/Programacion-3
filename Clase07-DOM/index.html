@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 07</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1 class="titulo centrado">Login</h1>
+        <h1 class="titulo">Login</h1>
+
+        <div>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="email" />
+        </div>
+        <div>
+          <label for="correo">Correo</label>
+          <input id="correo" type="email" />
+        </div>
+        <div>
+          <label for="contraseña">Contraseña</label>
+          <input id="contraseña" type="password" />
+        </div>
+        <br />
+        <input type="checkbox" id="terminos" />
+        <label for="terminos">Aceptar términos</label>
+        <br />
+        <br />
+      </form>
+      <p id="error" class="error"></p>
+      <!---->
+      <!--
+        Solo si no estoy en módulo
+          <button onclick="login()">Loguearse</button>
+          <button onclick="registro()">Registrarse</button>
+        -->
+
+      <button id="login">Loguearse</button>
+      <button id="registro">Registrarse</button>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

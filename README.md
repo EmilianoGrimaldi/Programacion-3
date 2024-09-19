@@ -1,12 +1,13 @@
-## Clase 1
+# Programacion-III-plan-2024
+
+## Clase 01
 
 ### Introducción HTML
 
     - Tags
     - Atributos
 
-<<<<<<< HEAD
-## Clase 2
+## Clase 02
 
 ### Introducción CSS
 
@@ -19,21 +20,21 @@
 
 - [Punto de partida](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics)
 
-## Clase 3
+## Clase 03
 
 ### CSS
 
     - Fuentes y atributos relacionados
     - Pseudoclases: hover, focus, nth-child
 
-## Clase 4
+## Clase 04
 
 ### CSS
 
     - Grid
     - Media Queries
 
-## Clase 5
+## Clase 05
 
 ### Javascript
 
@@ -51,7 +52,7 @@
 - [Arrays](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Clases](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes)
 
-## Clase 6
+## Clase 06
 
 ### Javascript
 
@@ -67,15 +68,23 @@
 - [Arrow Functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Spread Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [Colecciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Keyed_collections)
-=======
-Clase 03
-HTML y CSS
-- Formularios
-- Tipografias
-- Pseudoclases
 
-Clase 04
-CSS - Grid
-- Diseño Responsive
-- Media Query
->>>>>>> 353440e6cdc9bcd95994586d3b0df806ba6386c8
+## Clase 07
+
+### Javascript - DOM
+
+    - localstorage
+    - DOM
+    - getElementById
+    - onclick
+    - addEventListener
+    - innerHTML vs innerText
+
+### Documentación importante:
+
+- [localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+- [DOM](https://developer.mozilla.org/es/docs/Glossary/DOM)
+- [getElementById](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById)
+- [onclick](https://www.w3schools.com/jsref/event_onclick.asp)
+- [innerText](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
+- [innerHTML vs innerText](https://www.freecodecamp.org/news/innerhtml-vs-innertext-vs-textcontent/)
