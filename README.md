@@ -8,8 +8,6 @@
     - Atributos
 
 ## Clase 02
-=======
-## Clase 2
 
 ### Introducción CSS
 
