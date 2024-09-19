@@ -7,11 +7,9 @@
     - Tags
     - Atributos
 
-<<<<<<< HEAD
 ## Clase 02
 =======
 ## Clase 2
->>>>>>> 6856889f243e4f920f5cadef3e20151c58a59e71
 
 ### Introducción CSS
 
@@ -72,7 +70,7 @@
 - [Arrow Functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Spread Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [Colecciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Keyed_collections)
-<<<<<<< HEAD
+
 
 ## Clase 07
 
@@ -93,5 +91,4 @@
 - [onclick](https://www.w3schools.com/jsref/event_onclick.asp)
 - [innerText](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
 - [innerHTML vs innerText](https://www.freecodecamp.org/news/innerhtml-vs-innertext-vs-textcontent/)
-=======
->>>>>>> 6856889f243e4f920f5cadef3e20151c58a59e71
+
